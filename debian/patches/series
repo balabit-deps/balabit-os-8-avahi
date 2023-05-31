@@ -6,3 +6,4 @@ Remove-empty-avahi_discover-Python-module.patch
 local-only-services-support.patch
 CVE-2017-6519-and-CVE-2018-1000845.patch
 CVE-2021-3468.patch
+CVE-2023-1981.patch

@@ -1,3 +1,12 @@
+avahi (0.7-4ubuntu7.2) focal-security; urgency=medium
+
+  * SECURITY UPDATE: avahi-daemon can be crashed via DBus
+    - debian/patches/CVE-2023-1981.patch: emit error if requested service
+      is not found in avahi-daemon/dbus-protocol.c.
+    - CVE-2023-1981
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 31 May 2023 09:59:47 -0400
+
 avahi (0.7-4ubuntu7.1) focal-security; urgency=medium
 
   * SECURITY UPDATE: DoS via infinite loop on local socket
